@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*  containers */
+.container {
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid#757575;
+}
+ul {
+  width: auto;
+  list-style-type: none;
+}
+
+.agencja,
+.kontakt {
+  text-decoration: 0;
+  color: #212121;
+  margin-right: 46px;
+}
+
+.portfolio {
+  margin-right: 46px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  color: #212121;
+}
+
+.zmiana:hover {
+  color: #2196f3;
+}
+
+.zmiana {
+  color: #757575;
+}
+.agencja {
+  margin-left: 93px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.web {
+  width: auto;
+}
+
+.info {
+  margin-right: 50px;
+  width: auto;
+  display: flex;
+  margin-left: auto;
+}
+
+.numer {
+  size: 14px;
+  width: auto;
+}
+
+.efektywne {
+  color: white;
+  background-color: #2f303a;
+  text-align: center;
+  padding: 200px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("/images/background-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.efektywne h1 {
+  font-weight: 900px;
+  font-size: 44px;
+  font-style: bold;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #2196f3;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.lorem {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+
+.lorem1 {
+  width: 270px;
+  font-size: small;
+  color: #757575;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.lorem1 h5 {
+  color: black;
+}
+
+.czym {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-style: bold;
+}
+
+.zdjecianr1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+  margin-top: 50px;
+}
+
+.zdjecianr1 img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nasz {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-style: bold;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.zespol {
+  background-color: #f5f4fa;
+  width: auto;
+  padding-bottom: 94px;
+}
+
+.portrety {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.obrazki li {
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1px;
+}
+
+.portrety ul li h5 {
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
+.portrety ul li p {
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.portret {
+  background-color: white;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 3px #757575;
+}
+
+.portret p {
+  color: #757575;
+}
+
+.stopka {
+  background-color: #2f303a;
+
+  color: white;
+  width: 100%;
+  height: 300px;
+  text-decoration: none;
+}
+
+div.wyrownanie {
+  position: relative;
+  top: 100px;
+  line-height: 200%;
+}
+
+.space {
+  font-size: 0;
+}
+
+span {
+  font-size: 26px;
+}
+
+address {
+  font-size: 14px;
+}
+
+.select {
+  text-decoration: none;
+}
+
+.select a {
+  text-decoration: none;
+  color: white;
+}
+
+.select1 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+h5 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}
+
+/*  PORTFOLIO HTML */
+
+.portfolio1 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.obrazki li {
+  background-color: white;
+  margin: 15px;
+  text-align: left;
+}
+
+.button1 li button {
+  background-color: #f5f4fa;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+  color: #212121;
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.obrazki {
+  margin-bottom: 94px;
+  max-width: 1300px;
+}
+
+.button1 li button:hover {
+  background-color: #2196f3;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.kolor1 h5 {
+  color: #212121;
+}
+
+.kolor2 p {
+  color: #757575;
+}
+
+.button1 {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.portret h5 {
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
+.portret p {
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.kolumna {
+  flex-direction: column;
+}
+
+/*---------INDEX SECTION 3-----------*/
+
+.clients-banner {
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+/*-------END INDEX SECTION 3---------*/
+
+/*-------ICONS PORTRETY---------*/
+.social-links {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.social-links_link-hover .social-links_link:focus {
+  color: var(--main color);
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-list_link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.social-icon-i {
+  width: 10.28px;
+  height: 10.28px;
+}
+
+.social-icon-t {
+  width: 20px;
+  height: 16.25px;
+}
+
+.social-icon-f {
+  width: 10px;
+  height: 20px;
+}
+
+.social-icon-l {
+  width: 4.15px;
+  height: 13.35px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--main-color);
+}
+/*-------END ICONS PORTRETY---------*/
+
+/*-------ICONS FOOTER---------*/
+
+.dolacz {
+}
+
+/*-------END ICONS FOOTER---------*/
